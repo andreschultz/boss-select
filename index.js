@@ -44,7 +44,7 @@
 			},userSelect: ((w ? '-webkit-' : '-moz-') + 'user-select')}
 	})();
 	var _letUserSelect = (function() {
-		var o = [{p: browser.userSelect,v: 'text'}, {p: 'outline-width',v: 0}];
+		var o = [{p: browser.userSelect,v: 'auto'}, {p: 'outline-width',v: 0}];
 		var n;
 		var s;
 		return function(node) {
